@@ -1,0 +1,199 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* SECTION ONE */
+    
+    .section-one {
+    background: #1F2937 ;
+    color: #f9faf8;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    }
+    
+    .tandi {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    }
+    
+    ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    }
+    
+    a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: normal;
+    }
+    
+    .text-box {
+    width: 450px;
+    }
+    
+    .main-text{
+    font-size: 48px;
+    font-weight:900;
+    }
+    
+    .sec-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    }
+    
+    .image {
+    background: grey;
+    height: 225px;
+    width: 500px;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 225px;
+    }
+    
+    .text-box button {
+    background: #3882f8;
+    border: #3882f8;
+    color: #e5e7eb;
+    margin-top: 10px;
+    padding: 8px 35px;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 8px;
+    }
+    
+    /* SECTION TWO */
+    
+    .section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+    }
+    
+    .title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 35px;
+    }
+    
+    .container {
+    display: flex;
+    margin-top: 35px;
+    gap: 30px;
+    }
+    
+    .box {
+    width: 150px;
+    color: #1f2937;
+    }
+    
+    .cube {
+    border: solid #3882f6;
+    padding: 70px 50px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    }
+    
+    /* SECTION THREE */
+    
+    .section-three {
+    background: #e5e7eb;
+    height: 450px;
+    font-weight: normal;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .quote-box {
+    color: #1f2937;
+    width: 850px;
+    font-size: 36px;
+    font-weight:lighter;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    }
+    
+    .thor {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    }
+    
+    /* SECTION FOUR */
+    
+    .section-four {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .cta {
+    background: #3882f6;
+    color: #f9faf8;
+    width: 1000px;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .cta .title {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
+    }
+    
+    .cta .txt {
+    text-align: start;
+    }
+    
+    .section-four button {
+    border: solid #f9faf8;
+    background: #3882f8;
+    color: #e5e7eb;
+    margin-top: 10px;
+    padding: 8px 35px;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 50px 0;
+    }
+    
+    /* FOOTER */
+    
+    .footer {
+    background: #1F2937 ;
+    color: #f9faf8;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    }
+    
+    
+    
